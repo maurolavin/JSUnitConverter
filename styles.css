@@ -14,17 +14,18 @@ body{
 
 .converterContainer{
     max-width: 800px;
-    min-width: 350px;
+    min-width: 200px;
     background-color: #f7f6f6;
-    padding: 2rem;
+    padding: 10px 10px;
     margin: 0 auto;
 }
 
 .columnContainer{
     display: flex;
     flex-direction: row;
+    flex-flow: column;
     gap: 10px;
-    width: 80%;
+    width: 90%;
     justify-content: space-evenly;
     align-items: center;
     color: #2c2b2d;
@@ -33,16 +34,35 @@ body{
 
 h1{
     font-weight: 700;
-    font-size: 60px;
+    font-size: 5vw;
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px 0px 50px 0px;
 }
 
 .resultado{
-    padding: 30px 0px;
+    width: 90%;
+    padding: 30px 20px;
     margin: 20px 20px;
     text-align: center;
     font-size: 24px;
     background-color: #ef4646;
     color: #f7f6f6;
+    border-radius: 15px;
+    height: auto;
+}
+
+span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+input, select {
+    font-weight: 400;
+    font-size: 24px;
+    width: 100%;
+    height: 80px;
+    border: 1px solid #43463f;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
